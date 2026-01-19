@@ -143,3 +143,94 @@ nav {
 .cards p {
   font-size: 16px;
 }
+/* featured starts */
+#feature{
+  background-color: #1A0B2E;
+  color: white;
+}
+.feature{
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+.feature h2{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.episod{
+  background-color: #250D44;
+  border-radius: 15px;
+}
+.episods h3{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  padding: 0 24px;
+}
+.episod p{
+  font-size: 16px;
+  margin-bottom: 12px;
+  padding: 0 24px;
+}
+.timing p, i{
+color: #00ff88;
+}
+iframe{
+  border-radius:15px 15px 0px 0px;
+}
+/* host */
+#host{
+  background-color: #1A0B2E;
+  color: white;
+  padding: 120px 0;
+}
+.host{
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 40px;
+  background-color: #351165;
+  border-radius: 40px;
+}
+.host h2{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.host-content h3{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.host-content p{
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.host-asset .logo img{
+  border: 1px solid #533C72;
+  padding: 5px;
+  border-radius: 50%;
+}
+/* host end */
+#footer{
+  background-image: url(./assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+  text-align: center;
+  color: white;
+}
+/* footer */
+#footer h2{
+  margin-bottom: 32px;
+}
+.footer{
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
