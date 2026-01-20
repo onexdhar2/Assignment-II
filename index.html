@@ -17,7 +17,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="inter">
-    <header>
+    <header class="hid">
       <div class="navbar">
         <nav>
           <h2 class="text-3xl font-bold">Tech<span class="logo">Wave</span></h2>
@@ -38,7 +38,7 @@
           src="./assets/microphone.png"
           alt=""
         />
-        <img class="new animate-bounce" src="./assets/new.png" alt="" />
+        <img class="new" src="./assets/new.png" alt="" />
         <img class="micro-circle" src="./assets/hero-circle.png" alt="" />
         <h1>TechWave</h1>
         <p>
@@ -47,16 +47,20 @@
         </p>
         <div class="buttons">
           <button class="linear-gradient">
-            <a href="#">Listen on Spotify</a>
+            <a href="#"
+              ><i class="fa-brands fa-spotify"></i> Listen on Spotify</a
+            >
           </button>
-          <button class="btn"><a href="#">Subscribe</a></button>
+          <button class="btn">
+            <a href="#"><i class="fa-regular fa-message"></i> Subscribe</a>
+          </button>
         </div>
       </div>
       <!-- banner -->
     </header>
     <!-- header end -->
     <main>
-      <section id="podcast">
+      <section class="hid" id="podcast">
         <div class="podcast">
           <div class="content text-center">
             <h1 class="text-5xl">About the Podcast</h1>
@@ -70,6 +74,7 @@
               Join thousands of young professionals and tech enthusiasts who
               start their day with TechWave.
             </p>
+            <hr style="color: gray; width: 100%; margin: 40px 0" />
           </div>
           <div class="items flex justify-between text-center">
             <div class="item">
@@ -92,11 +97,13 @@
         </div>
       </section>
       <!-- podcast end -->
-      <section id="techwave">
+      <section class="hid" id="techwave">
         <div class="techwave">
           <h2 class="text-center">Why Choose TechWave</h2>
-          <div class="tech-cards grid grid-cols-3 gap-3">
-            <div class="cards row-span-2">
+          <div class="tech-cards grid lg:grid-cols-3 md:grid-cols-1 gap-3">
+            <div
+              class="cards lg:row-span-2 sm:row-span-1 md:row-span-1 animate-pulse"
+            >
               <img src="./assets/headphone.png" alt="" />
               <h3>Premium Audio Quality</h3>
               <p>
@@ -105,23 +112,29 @@
                 mastered for optimal listening across all devices and platforms.
               </p>
             </div>
-            <div class="cards col-span-2">
-              <img src="./assets/headphone.png" alt="" />
+            <div
+              class="cards lg:col-span-2 sm:row-span-1 md:row-span-1 animate-pulse"
+            >
+              <img src="./assets/device.png" alt="" />
               <h3>Mobile Friendly</h3>
               <p>
                 Listen on the go with seamless mobile experience and offline
                 downloads.
               </p>
             </div>
-            <div class="cards col-span-2">
-              <img src="./assets/headphone.png" alt="" />
+            <div
+              class="cards lg:col-span-2 sm:row-span-1 md:row-span-1 animate-pulse"
+            >
+              <img src="./assets/location.png" alt="" />
               <h3>Global Community</h3>
               <p>
                 Connect with tech enthusiasts from over 120 countries worldwide.
               </p>
             </div>
-            <div class="cards col-span-2">
-              <img src="./assets/headphone.png" alt="" />
+            <div
+              class="cards lg:col-span-2 sm:row-span-1 md:row-span-1 animate-pulse"
+            >
+              <img src="./assets/book-open-01.png" alt="" />
               <h3>Exclusive Interviews</h3>
               <p>
                 Get unprecedented access to industry titans, startup founders,
@@ -130,8 +143,10 @@
                 failures, and success strategies.
               </p>
             </div>
-            <div class="cards row-span-1">
-              <img src="./assets/headphone.png" alt="" />
+            <div
+              class="cards lg:row-span-1 sm:row-span-1 md:row-span-1 animate-pulse"
+            >
+              <img src="./assets/zap-fast.png" alt="" />
               <h3>Rich Resources</h3>
               <p>
                 Access show notes, transcripts, and additional learning
@@ -142,12 +157,12 @@
         </div>
       </section>
       <!-- techwave end -->
-      <section id="feature">
+      <section class="hid" id="feature">
         <div class="feature">
           <h2>Featured Episodes</h2>
-          <div class="episods grid grid-cols-3 gap-3">
-            <div
-              class="episod hover:bg-indigo-500 shadow-lg shadow-indigo-500/50"
+          <div class="episods grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-3"
+          >
+            <div class="episod hover:bg-indigo-500 shadow-lg shadow-indigo-500/50"
             >
               <iframe
                 width="387"
@@ -237,14 +252,14 @@
       </section>
       <!-- feature end -->
       <!-- host -->
-      <section id="host">
+      <section class="hid" id="host">
+        <h2>Meet the Host</h2>
         <div class="host">
-          <h2>Meet the Host</h2>
-          <div class="host-asset grid grid-cols-4 items-center">
-            <div class="host-img col-span-1">
+          <div class="host-asset grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 items-center">
+            <div class="host-img lg:col-span-1">
               <img src="./assets/host.png" alt="" />
             </div>
-            <div class="host-content col-span-3">
+            <div class="host-content lg:col-span-3">
               <h3>Alex Kumar</h3>
               <p>
                 Tech entrepreneur, productivity expert, and lifelong learner.
@@ -264,25 +279,25 @@
         </div>
       </section>
     </main>
-    <footer id="footer">
+    <footer class="hi" id="footer">
       <div class="footer">
         <h2 class="text-5xl font-bold">Tech<span class="logo">Wave</span></h2>
-      <div class="brands flex justify-center gap-5">
-        <div class="brand">
-          <h3>Spotify</h3>
-        </div>
-        <div class="brand">
-          <h3>Spotify</h3>
-        </div>
-        <div class="brand">
-          <h3>Spotify</h3>
-        </div>
-        <div class="brand">
-          <h3>Spotify</h3>
+        <div class="brands flex justify-center gap-15">
+          <div class="brand">
+            <h3><i class="fa-brands fa-spotify"></i> Spotify</h3>
+          </div>
+          <div class="brand">
+            <h3><i class="fa-solid fa-podcast"></i> Apple Podcasts</h3>
+          </div>
+          <div class="brand">
+            <h3><i class="fa-brands fa-youtube"></i> YouTube</h3>
+          </div>
+          <div class="brand">
+            <h3><i class="fa-brands fa-twitter"></i> Twitter</h3>
+          </div>
         </div>
       </div>
       <p>© 2026 TechWave Podcast. All rights reserved.</p>
-      </div>
     </footer>
   </body>
 </html>

@@ -1,0 +1,109 @@
+@media screen and (max-width: 576px) {
+  header {
+    width: 100%;
+  }
+  .menus {
+    display: none;
+  }
+  nav .btn {
+    display: none;
+  }
+  nav {
+    background: url(./assets/hamburger-menu.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .microphone {
+    margin: 0 auto;
+    position: absolute;
+    width: 130px;
+    top: 50%;
+    left: 38%;
+    z-index: 1;
+  }
+  .micro-circle {
+    width: 338px;
+  }
+  .new {
+    top: 31%;
+    left: 53%;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  iframe {
+    width: 100%;
+  }
+  .brands {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+  }
+    .host-img {
+    margin: 0 auto;
+  }
+  .host {
+    text-align: center;
+  }
+  .host-content .logo {
+    margin: 0 auto;
+  }
+}
+/* .................................. */
+/* ............small device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  header {
+    width: 100%;
+  }
+  nav .btn {
+    display: none;
+  }
+  .menus {
+    display: none;
+  }
+  .microphone {
+    margin: 0 auto;
+    position: absolute;
+    width: 130px;
+    top: 50%;
+    left: 38%;
+    z-index: 1;
+  }
+  .new {
+    top: 34%;
+    left: 53%;
+  }
+  nav {
+    background: url(./assets/hamburger-menu.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  iframe {
+    width: 100%;
+  }
+  .host-img {
+    margin: 0 auto;
+  }
+  .host {
+    text-align: center;
+  }
+  .host-content .logo {
+    margin: 0 auto;
+  }
+  .brands {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+  }
+}
+/* ......................... */
+/* ........medium deice................. */
+@media screen and (min-width:992px) and (max-width:1200px){
+
+}
