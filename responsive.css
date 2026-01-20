@@ -40,7 +40,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1px;
   }
-    .host-img {
+  .host-img {
     margin: 0 auto;
   }
   .host {
@@ -48,6 +48,11 @@
   }
   .host-content .logo {
     margin: 0 auto;
+  }
+  .techwave h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
   }
 }
 /* .................................. */
@@ -101,9 +106,31 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1px;
   }
+  .techwave h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
 }
 /* ......................... */
 /* ........medium deice................. */
-@media screen and (min-width:992px) and (max-width:1200px){
-
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .new {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 2;
+  }
+  .microphone {
+    margin: 0 auto;
+    position: absolute;
+    width: 170px;
+    top: 46%;
+    left: 42%;
+    z-index: 1;
+  }
+  iframe {
+    width: 100%;
+  }
 }
+/* .............................large device */
